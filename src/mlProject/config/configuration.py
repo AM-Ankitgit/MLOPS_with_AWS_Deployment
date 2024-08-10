@@ -103,8 +103,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",
-           
+            mlflow_uri="https://dagshub.com/AM-Ankitgit/MLOPS_with_AWS_Deployment.mlflow",
         )
 
         return model_evaluation_config
