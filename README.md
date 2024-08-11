@@ -6,8 +6,7 @@ Creating project from scratched to implement the MLOPs with Deployment on AWS
 
 
 
-### dagshub
-mlflow tracking url  (this url is created by dagshub)
+
 
 
 ## Workflows
