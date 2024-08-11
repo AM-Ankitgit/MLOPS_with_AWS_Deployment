@@ -4,11 +4,6 @@ Creating project from scratched to implement the MLOPs with Deployment on AWS
 
 
 
-
-
-
-
-
 ## Workflows
 
 1. Update config.yaml
@@ -79,17 +74,18 @@ set MLFLOW_TRACKING_USERNAME=AM-Ankitgit
 
 set MLFLOW_TRACKING_PASSWORD=9a0cfdb8c9f9890d8d9e80455ae5918fcb9f4cb6
 
-
+```
 import dagshub
 dagshub.init(repo_owner='AM-Ankitgit', repo_name='MLOPS_with_AWS_Deployment', mlflow=True)
 
-`example script `:
+# example script :
 
 import mlflow
 with mlflow.start_run():
   mlflow.log_param('parameter name', 'value')
   mlflow.log_metric('metric name', 1)
 
+```
 
 Run this to export as env variables:
 
